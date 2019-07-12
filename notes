@@ -1,0 +1,15 @@
+Concepts:
+1. What are Hooks?
+2. Why do we we have them?
+
+Objectives:
+1. Use the useState Hook
+2. Use the useEffect Hook
+3. Write and use a Custom Hook
+
+
+<div style={{textAlign: 'center', marginTop: '30px', fontSize: '50px'}}>
+  {count}<br/>
+  <button style={{fontSize: '20px'}} onClick={() => setCount(count - 1)}> - </button>
+  <button style={{fontSize: '20px'}}onClick={() => setCount(count + 1)}> + </button>
+</div>
